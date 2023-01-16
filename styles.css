@@ -14,7 +14,7 @@
 
 .sidebar {
     background-color: rgb(201, 196, 196);
-    width: 170px;
+    /* width: 170px; */
     height: 100vh;
 
 }
@@ -97,6 +97,12 @@
 }
 .devpic img {
     width: 50vh;
+}
+.hamberger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
 }
 
 /* for Responsive  */

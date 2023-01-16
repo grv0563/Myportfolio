@@ -23,6 +23,10 @@
     height: 25px;
     border-radius: 6px;
 }
+.contactform .shortmsg{
+    font-size: 15px;
+}
+
 #emailHelp{
     padding: 0px 12px;
     color: purple;
@@ -33,7 +37,13 @@
     margin: 10px;
 }
 .btn-primary{
-    border-radius: 5px;
-    padding: 4px;
+    padding:8px 10px;
+    border-radius: 30px;
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    font-weight: bold;
+    margin:0 8px;
     cursor: pointer;
+
 }
