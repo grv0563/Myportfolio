@@ -17,6 +17,9 @@
 .aboutme{
     padding-top: 400px;
 }
+.aboutme p{
+    text-align: justify;
+}
 .education h4{
     padding-top: 10px;
 }

@@ -58,6 +58,7 @@
     justify-content: center;
     flex-direction: column;
     font-family: 'Source Code Pro', monospace;
+    margin-top: 170px;
 }
 
 .hello {
@@ -92,6 +93,7 @@
     background-color: black;
     font-size: 16px;
     font-weight: bold;
+    margin-top: 50px;
     margin: 0 8px;
     cursor: pointer;
 }
@@ -103,6 +105,21 @@
 
 .devpic img {
     width: 50vh;
+}
+.extra{
+    padding-top: 15px;
+    
+}
+.extra p{
+    text-align: justify;
+}
+.qoutes h3{
+    padding-top: 5px;
+
+}
+.qoutes h4{
+    padding-top: 5px;
+    padding-left: 305px;
 }
 
 .hamberger {
