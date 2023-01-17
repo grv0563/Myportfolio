@@ -65,4 +65,13 @@
 .myCoursesContainer p{
     padding-top: 10px;
 }
-
+.udemy a{
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: bold;
+}
+.nptel a{
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: bold;
+}
