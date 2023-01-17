@@ -1,24 +1,68 @@
-
 @import 'styles.css';
-.main{
-    height: 150vh;
+
+
+.container {
+    /* background-color: aqua; */
+    height: 500vh;
+    
+
 }
-.introContainer{
+
+.main {
+    /* background-color: red; */
+}
+
+.infocontainer  {
+    /* background-color: blue; */
+    
+}
+
+
+.introContainer {
+    /* background-color: green; */
     font-family: 'Fira Sans', sans-serif;
-    display: flex;
     justify-content: center;
-    flex-direction: column;
     font-family: 'Source Code Pro', monospace;
 }
 .introContainer h2{
     padding-top: 10px;
 }
-.aboutme{
-    padding-top: 400px;
+
+.aboutmeContainer {
+    /* background-color: yellow; */
 }
-.aboutme p{
+.aboutmeContainer p{
     text-align: justify;
 }
-.education h4{
+
+.myEducationContainer {
+    /* background-color: gray; */
     padding-top: 10px;
 }
+.myEducationContainer h4{
+    padding-top: 10px;
+}
+.myEducationContainer p{
+    padding-top: 10px;
+}
+
+.mySkillsContainer {
+    /* background-color: black; */
+}
+.mySkillsContainer h4{
+    padding-top: 10px;
+}
+.mySkillsContainer p{
+    padding-top: 10px;
+}
+
+.myCoursesContainer {
+    /* background-color: blueviolet; */
+}
+.myCoursesContainer h4{
+    padding-top: 10px;
+}
+.myCoursesContainer p{
+    padding-top: 10px;
+}
+
