@@ -3,36 +3,42 @@
 .contactform{
     padding: 100px;
     font-family: 'Fira Sans', sans-serif;
+    color: blueviolet;
     
 }
 .contactform h1{
     font-weight: bold;
     font-family: 'Source Code Pro', monospace;
     text-align:center;
+    color: blueviolet;
 }
 .contactform div{
     padding: 10px 0px;
     font-size: 24px;
     display: flex;
     flex-direction: column;
+    color: blueviolet;
 }
 .form-control{
     width: 30vw;
     height: 25px;
     border-radius: 6px;
+    color: blueviolet;
 }
 .contactform .shortmsg{
     font-size: 15px;
+    color: blueviolet;
 }
 
 #emailHelp{
     padding: 0px 12px;
-    color: purple;
+    color: rgb(243, 238, 243);
     font-size: 12px;
 }
 .form-check-label{
     font-size: 12px;
     margin: 10px;
+    color: blueviolet;
 }
 .btn-primary{
     padding:8px 10px;
@@ -43,5 +49,9 @@
     font-weight: bold;
     margin:0 8px;
     cursor: pointer;
+
+}
+.btn-primary button:hover {
+    background-color: aqua;
 
 }

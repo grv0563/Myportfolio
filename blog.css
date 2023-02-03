@@ -7,6 +7,7 @@
 .blogItem{
     font-family: 'Source Code Pro', monospace;
     padding: 10px;
+    color: blueviolet;
 }
 .blogItem h2{
     padding: 0px;

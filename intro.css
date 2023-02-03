@@ -26,24 +26,33 @@
 }
 .introContainer h2{
     padding-top: 10px;
+    color: brown;
 }
 
 .aboutmeContainer {
     /* background-color: yellow; */
+    color: brown;
 }
 .aboutmeContainer p{
     text-align: justify;
+    color: blueviolet;
 }
 
 .myEducationContainer {
     /* background-color: gray; */
     padding-top: 10px;
+    color: blueviolet;
+}
+.myEducationContainer h2{
+    color: brown;
 }
 .myEducationContainer h4{
     padding-top: 10px;
+    color: brown;
 }
 .myEducationContainer p{
     padding-top: 10px;
+    color: blueviolet;
 }
 
 .mySkillsContainer {
@@ -51,9 +60,11 @@
 }
 .mySkillsContainer h4{
     padding-top: 10px;
+    color: brown;
 }
 .mySkillsContainer p{
     padding-top: 10px;
+    color: blueviolet;
 }
 
 .myCoursesContainer {
@@ -61,17 +72,19 @@
 }
 .myCoursesContainer h4{
     padding-top: 10px;
+    color: blueviolet;
 }
 .myCoursesContainer p{
     padding-top: 10px;
+    color: blueviolet;
 }
 .udemy a{
     text-decoration: none;
-    color: blueviolet;
+    color: brown;
     font-weight: bold;
 }
 .nptel a{
     text-decoration: none;
-    color: blueviolet;
+    color: brown;
     font-weight: bold;
 }
