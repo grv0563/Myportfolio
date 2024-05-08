@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 body {
-    font-family: sans-serif;
+    font-family: "Source Code Pro", monospace;
     background-color: black;
     color: aqua;
     margin: 0;
@@ -36,12 +37,14 @@ body {
   
   header {
     text-align: center;
-    padding: 50px;
+    padding: 20px;
+    
   }
   
   
   section {
     padding: 20px;
+   
   }
   
   .work-item {
