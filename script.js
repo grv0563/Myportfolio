@@ -55,9 +55,10 @@ navLinks.forEach(link => {
 // console.log("Age:", age, "years old");
 
 
+
 function calculateAge(birthDate) {
   // Set the birth date
-  const birthDateObj = new Date(2001, 3, 2); // Year, Month (0-indexed), Day
+  const birthDateObj = new Date(2001, 4, 2); // Year, Month (0-indexed), Day
 
   // Get the current date and time in milliseconds
   const now = Date.now();
@@ -109,12 +110,15 @@ function displayAge(){
   if (outputElement) {
 
     // outputElement.textContent = "23."+now +" Years";
-    outputElement.textContent = `${myage.years} years, ${myage.days} days, ${myage.hours} hours, ${myage.minutes} minutes, ${myage.milliseconds} milliseconds`;
+    outputElement.textContent = `${myage.years} years, ${myage.days +23} days, ${myage.hours} hours, ${myage.minutes} minutes, ${myage.milliseconds} milliseconds`;
   }
  
 }
  // displayAge();
  setInterval(displayAge,1)
+
+
+
 
 
 
